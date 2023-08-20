@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+
+.dropdown {
+    background-color: black;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.bg-radus {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    background-image: url("bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
